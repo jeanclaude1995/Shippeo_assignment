@@ -1,6 +1,6 @@
 This codes finds the item type that appears in both compartments of each rucksack(list of items)in the given input file and provides the output of the sum of the priorities of those item types.
  
- #to process new input file, copy the new input file path in the docker file.
+ #to process new input file, copy the new input file path in the docker file and change the CMD like below.
     
         COPY input_file.txt ./
   
