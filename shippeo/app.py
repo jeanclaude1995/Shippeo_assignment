@@ -1,5 +1,4 @@
 import psycopg2
-import zlib
 def find_common_character(list):
     value_priority=[]
     for i in list:
