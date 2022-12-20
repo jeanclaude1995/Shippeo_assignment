@@ -38,7 +38,6 @@ if __name__ == '__main__':
         var=text.replace('\n', ',')
         list=var.split(',')
     result=find_common_character(list)
-    print("The sum of the value of the common characters is: "+ str(result))
     #compress the text
     data=zlib.compress(text.encode('utf-8'))
     print("The compressed text is: "+ str(data))
