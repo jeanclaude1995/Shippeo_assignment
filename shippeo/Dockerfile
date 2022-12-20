@@ -13,4 +13,4 @@ RUN poetry install
 COPY app.py input_file.txt ./
 
 # Run the application
-CMD ["poetry", "run", "python", "app.py"]
+CMD ["poetry", "run", "python", "app.py", "input_file.txt"]
