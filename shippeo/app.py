@@ -40,6 +40,5 @@ if __name__ == '__main__':
     result=find_common_character(list)
     #compress the text
     data=zlib.compress(text.encode('utf-8'))
-    print("The compressed text is: "+ str(data))
     write_log_to_db(result,data)
     
